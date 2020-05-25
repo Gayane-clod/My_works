@@ -1,0 +1,432 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.common {
+  width: 100%;
+  overflow: hidden;
+  font-family: "Raleway", sans-serif;
+}
+.common .div {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  z-index: 4;
+  position: fixed;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+}
+.common .div .nav {
+  display: flex;
+  justify-content: space-between;
+}
+.common .div .nav .ul li a {
+  list-style: none;
+  color: black;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 12px 16px;
+}
+.common .div .nav .ul li a:hover {
+  color: black;
+  background-color: #ccc;
+  padding: 12px 16px;
+}
+.common .div .nav .ul1 {
+  display: flex;
+  justify-content: center;
+}
+.common .div .nav .ul1 li {
+  list-style: none;
+}
+.common .div .nav .ul1 li a {
+  color: black;
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px;
+}
+.common .div .nav .ul1 li a:hover {
+  color: black;
+  background-color: #ccc;
+  padding: 12px 16px;
+}
+.common .div1 {
+  width: 100%;
+  height: 657px;
+  background-image: url(../img/mac.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.common .div1-h1 {
+  padding: 48px;
+}
+.common .div1-h1 .h2, .common .div1-h1 .p1, .common .div1-h1 .bnt {
+  color: white;
+  font-size: 64px;
+  line-height: 1.8;
+}
+.common .div1-h1 .p1, .common .div1-h1 .bnt {
+  font-size: 18px;
+}
+.common .div1-h1 .bnt {
+  padding: 12px 24px;
+  border: none;
+  opacity: 0.6;
+  color: black;
+  margin-top: 16px;
+}
+.common .div1-h1 .bnt:hover {
+  opacity: 1;
+}
+.common .div1 .div2 {
+  padding: 48px;
+}
+.common .div1 .div2 i {
+  color: #ccc;
+}
+.common .div1 .div2 i:hover {
+  color: gray;
+  cursor: pointer;
+}
+.common .div8 {
+  width: 100%;
+}
+.common .div8-a1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+.common .div8 .w1 {
+  margin-top: 50px;
+}
+.common .div8 .loc {
+  text-align: center;
+}
+.common .div8 .loc i {
+  font-size: 64px !important;
+  padding-bottom: 15px;
+}
+.common .div8 .h4 {
+  padding-bottom: 15px;
+}
+.common .div3 {
+  background-color: #ccc;
+  margin-top: 50px;
+}
+.common .loc1 {
+  margin-top: 150px;
+}
+.common .bnt1 {
+  padding: 8px 16px;
+  border: none;
+  background-color: black;
+  color: white;
+}
+.common .bnt1:hover {
+  background-color: gray;
+  color: black;
+}
+.common .loc2 img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 20px;
+  border-radius: 8px;
+}
+.common .q2 {
+  text-align: center;
+  padding-top: 50px;
+  text-transform: uppercase;
+}
+.common .p5 {
+  text-align: center;
+}
+.common .div5 {
+  display: flex;
+  justify-content: center;
+}
+.common .div6 {
+  width: 23.999%;
+  padding-bottom: 15px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+  box-sizing: border-box;
+}
+.common .div6 img {
+  width: 100%;
+}
+.common .q3 {
+  padding: 5px;
+}
+.common .p6 {
+  color: #ccc;
+  padding: 5px;
+}
+.common .p7 {
+  padding: 5px;
+}
+.common .bnt3 {
+  width: 100%;
+  padding: 8px 16px;
+  border: none;
+  background-color: #ccc;
+}
+.common .bnt3:hover {
+  background-color: gray;
+}
+.common .div7 {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  background-color: #616161;
+  padding-top: 64px;
+  padding-bottom: 30px;
+}
+.common .q4 {
+  text-align: center;
+  font-size: 36px;
+  color: white;
+}
+.common .p8 {
+  text-align: center;
+  color: white;
+}
+.common .div9 {
+  width: 100%;
+}
+.common .q5 {
+  text-align: center;
+  padding-top: 50px;
+}
+.common .p9 {
+  text-align: center;
+}
+.common .div10 {
+  display: flex;
+  justify-content: center;
+}
+.common .div11 {
+  margin: 10px;
+}
+.common .y1 {
+  margin-bottom: 5px;
+}
+.common .div12 {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  background-color: #F1F1F1;
+  padding-bottom: 20px;
+}
+.common .div13 {
+  width: 47.999%;
+  padding-top: 50px;
+}
+.common .p12 {
+  padding: 15px 0;
+}
+.common .div14 {
+  width: 47.999%;
+  padding-top: 45px;
+}
+.common .div15 {
+  background-color: #616161;
+}
+.common .q7 {
+  text-align: center;
+  padding-top: 50px;
+}
+.common .p13 {
+  text-align: center;
+}
+.common .div16 {
+  display: flex;
+  justify-content: center;
+}
+.common .div17 {
+  width: 31.33333%;
+  height: 581px;
+  margin-left: 15px;
+}
+.common .li {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+.common .li1 {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+.common .li2 {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+.common .span {
+  font-weight: bold;
+}
+.common .li3 {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+.common .li4 {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+.common .li5 {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 30px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+.common .li6 {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  border-top: 1px solid #ccc;
+  text-align: center;
+}
+.common .ul4 li {
+  list-style: none;
+}
+.common .bnt4 {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 16px;
+}
+.common .bnt4:hover {
+  background-color: #ccc;
+  color: black;
+}
+.common .li7 {
+  color: white;
+  background-color: red;
+  text-align: center;
+  padding: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+.common .div18 {
+  background-color: #F1F1F1;
+  width: 100%;
+  padding-bottom: 50px;
+}
+.common .q8 {
+  text-align: center;
+  padding-top: 100px;
+}
+.common .p14 {
+  text-align: center;
+}
+.common .p15 {
+  margin-left: 15px;
+}
+.common .span1 {
+  padding-right: 10px;
+}
+.common .form {
+  box-sizing: border-box;
+  width: 98%;
+}
+.common .form input {
+  width: 100%;
+  margin: 10px;
+  padding: 8px;
+}
+.common .bnt5 {
+  margin: 10px;
+  border: none;
+  padding: 8px 16px;
+  background-color: black;
+  color: white;
+}
+.common .bnt5:hover {
+  background-color: #ccc;
+  color: black;
+}
+.common .img {
+  width: 100%;
+  padding: 10px;
+}
+.common .div19 {
+  width: 100%;
+  background-color: black;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.common .bnt6 {
+  border: none;
+  padding: 8px 16px;
+}
+.common .bnt6:hover {
+  background-color: #ccc;
+}
+.common .p18 {
+  padding-top: 25px;
+}
+.common .p18 i {
+  color: white;
+}
+.common .p16 {
+  color: white;
+}
+.common .p16 a {
+  color: white;
+  text-decoration: underline;
+}
+.common .p16 a:hover {
+  color: green;
+}
+@media (max-width: 700px) {
+  .common .div5 {
+    flex-wrap: wrap;
+  }
+  .common .div6 {
+    width: 49.999%;
+  }
+  .common .div10 {
+    flex-wrap: wrap;
+  }
+  .common .div11 {
+    width: 49.999%;
+  }
+  .common .div12 {
+    flex-wrap: wrap;
+  }
+  .common .div13 {
+    width: 100%;
+  }
+  .common .div16 {
+    flex-wrap: wrap;
+  }
+  .common .div17 {
+    width: 49.999%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,308 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #f1f1f1;
+}
+#p1{
+	margin: inherit;
+}
+#p2{
+	margin: inherit;
+}
+.menu{
+	display: flex;
+	padding-left: 7px;
+	padding-right: 7px;
+	background-color: #000;
+	overflow: hidden;
+	list-style: none;
+	position: fixed;
+	z-index: 99;
+	width: 100%;
+	line-height: 1.5;
+	box-sizing: border-box;
+}
+
+.menu li{
+	width: 23%;
+	padding: 8px 16px;
+	box-sizing: border-box;
+	text-align: center;
+	display: block;
+	
+}
+.menu li a{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Inconsolata', monospace;
+	width: 100%;
+	font-size: 15px;
+ }
+
+.menu li:hover{
+	cursor: pointer;
+	background-color: grey;
+}
+.menu li:hover a{
+	color: #000!important;
+}
+
+.div_img{
+	display: block;
+	position: relative;
+}
+
+.div_img img{
+	width: 100%;
+	height: 750px;
+}
+
+.div1{
+	position: absolute;
+	bottom: 35px;
+    left: 33px;
+	background-color: #000;
+	display: inline-block;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+   	padding: 12px 24px;
+   	box-sizing: border-box;
+   
+}
+.div1 h4{
+ 	font-family: 'Inconsolata', monospace;
+ 	color: #fff;
+}
+
+.div2{
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+}
+ .div2 p{
+	font-size: 90px;
+	color: #fff;
+	font-family: 'Inconsolata', monospace;
+	line-height: 1.5;
+ }
+
+
+
+.container{
+	margin-top: 64px;  	
+}
+
+ .div3{
+ 	display: inline-block;
+ 	background-color: #000;
+ 	font-family: 'Inconsolata', monospace;
+	padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+	box-sizing: border-box;
+  	margin-left: 40%;
+  	margin-bottom: 64px;
+  	margin-top: 64px;
+  	box-sizing: border-box;
+ }
+
+ .div3 span{
+ 	color: #fff;
+ 	letter-spacing: 4px;
+ 	font-size: 18px;
+ 	line-height: 1.5;
+}
+ 
+.div4{
+	width: 70%;
+	margin:auto;
+}
+
+.div4 p{
+	font-size: 18px;
+	line-height: 1.5;
+	font-family: 'Inconsolata', monospace;
+}
+.text1{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	box-sizing: border-box;
+}
+
+.div5{
+	border-left: 6px solid #ccc;
+	background-color: #f1f1f1;
+}
+
+.div5 p{
+	padding-left: 10px;
+	margin-top: 16px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    font-family: 'Inconsolata', monospace;
+}
+
+.img_coffeshop{
+	width: 70%;
+	display: block;
+	margin: auto;
+}
+
+.img_coffeshop img{
+	width: 100%;
+}
+
+.div6{
+    padding-top: 15px;
+	width: 70%;
+	margin: auto;
+	box-sizing: border-box;
+}
+.div6 p{
+	padding: 3px 0px;
+	font-size: 18px;
+	line-height: 1.5;
+	box-sizing: border-box;
+	font-family: 'Inconsolata', monospace;
+}
+
+.common{
+	background-color: #f1f1f1;
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	margin: auto;
+	border:4px solid #ccc;
+	list-style: none;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+
+.common_left{
+	width: 50%;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Inconsolata', monospace;
+}
+
+.common_right{
+	width: 50%;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Inconsolata', monospace;
+}
+
+
+.common_left:hover{
+	background-color: grey;
+	cursor: pointer;
+}
+
+.common_right:hover{
+	background-color: grey;
+	cursor: pointer;
+}
+.common_left:hover p{
+	color: #fff;
+}
+
+.common_right:hover p{
+	color: #fff;
+}
+
+.div_left{
+	padding-top: 48px;
+	padding-bottom:48px;
+	box-sizing: border-box;
+	width: 70%;
+	margin: auto;
+	border:4px solid #ccc;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+
+.div_left p, h5{
+	margin-left: 8px;
+}
+
+.div_right{
+	padding-top: 48px;
+	padding-bottom:48px;
+	box-sizing: border-box;
+	width: 70%;
+	margin: auto;
+	border:4px solid #ccc;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+}
+.div_right p, h5{
+	margin-left: 8px;
+}
+.img_coffeehouse2{
+	width: 70%;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.img_coffeehouse2 img{
+	width: 100%;
+}
+.div7{
+	width: 70%;
+	margin: auto;
+}
+
+.div8{
+	width: 70%;
+	margin: auto;
+	font-size: 18px;
+}
+
+.div8 span{
+	padding-left: 8px;
+    padding-right: 8px;
+    box-sizing: border-box;
+    text-align: center;
+	background-color: #000;
+	color: #fff;
+	font-family: 'Inconsolata', monospace;
+}
+form p input{
+	width: 100%;
+	padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    box-sizing: border-box;
+}
+
+.btn{
+	color: #fff;
+    background-color: #000;
+    padding: 8px 16px;
+    box-sizing: border-box;
+}
+
+.btn:hover{
+	color: #000;
+    background-color: #ccc;
+}
+.footer{
+	display: flex;
+	justify-content: center;
+	padding-top: 48px;
+	padding-bottom: 48px;
+	box-sizing: border-box;
+	font-size: 18px;
+	
+}
+.footer a{
+	color: #000;
+}
+
+.footer a:hover{
+	color: green;
+}

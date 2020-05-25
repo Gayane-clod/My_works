@@ -1,0 +1,194 @@
+@font-face{
+	font-family: muller;
+	src:url(../Font/Muller-ExtraBold-DEMO.ttf);
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background-color: #00264e;
+	font-family: muller;
+	height: 1000px;
+}
+
+.common{
+	width: 1069px;
+	margin: auto;
+	padding: 18px 10px;
+	box-sizing: border-box;
+}
+
+.head{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 18px 10px;
+	box-sizing: border-box;
+}
+
+.logo{
+	width: 77px;
+  	height: 43px;
+}
+
+.whl{
+	color: #fff;
+}
+
+.text1{
+	font-size: 34px;
+}
+
+.text3{
+	font-size: 24px;
+}
+
+.dr{
+	display: flex;
+	align-items: center;
+	color: #fff;
+}
+
+.dr img{
+	width: 65px;
+	height: 65px;
+	border-radius: 50%;
+}
+
+.text2{
+	margin-right: 20px;
+}
+
+.body{
+	width: 1069px;
+	margin: auto;
+}
+
+.menu{
+	background-color: #03376e;
+	overflow: hidden;
+	
+}
+
+.menu li{
+	float: left;
+	list-style: none;
+}
+
+.menu li a {
+	padding: 29px 62px;
+	box-sizing: border-box;
+	display:block;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+.activ{
+	background-color: white;
+	color: black;
+}
+
+.a2 {
+	color: white;
+}
+
+.a3 {
+	color: white;
+}
+
+.a4 {
+	color: white;
+}
+
+.a5 {
+	color: white;
+}
+
+
+
+.middle1{
+	background-color: #ffffff;
+	padding-left: 95px;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	box-sizing: border-box;
+}
+
+
+.text4{
+	font-size: 32px;
+	color: #292929;	
+}
+
+.middle2{
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+.middle2_1{
+	width: 316px;
+ 	border-radius: 5px;
+  	border: solid 1px #e5e5e5;
+  	background-color: #ffffff;
+}
+
+.text5{
+	font-size: 26px;
+	color: #292929;
+	padding-top:35px;
+	padding-left: 93px;
+	padding-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.middle2_1_1{
+	width: 284px; 	
+}
+
+
+.button{
+  	margin: 90px 30px 186px 60px;  	
+}
+
+.btn{	
+  	background-color: #00264e;
+	font-size: 18px;
+	color: #ffffff;
+	padding: 15px 65px;
+	box-sizing: border-box;
+	border-radius: 27px;
+	border: none;
+}
+
+.middle2_2{
+	width: 316px;
+ 	border-radius: 5px;
+  	border: solid 1px #e5e5e5;
+  	background-color: #ffffff;
+}
+
+.middle2_3{
+	width: 316px;
+ 	border-radius: 5px;
+  	border: solid 1px #e5e5e5;
+  	background-color: #ffffff;
+}
+
+.footer{
+	width: 1280px;
+  	height: 78px;
+  	background-color: #00264e;
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+.text6{
+	 font-size: 14px;
+	 color: #ffffff;
+}
